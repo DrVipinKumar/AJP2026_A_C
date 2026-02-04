@@ -1,0 +1,24 @@
+class DisplayMessage {
+	String msg;
+	 DisplayMessage(){
+		 msg="This is Java 8+";
+	 }
+	 DisplayMessage(String msg){
+		 this.msg=msg;
+	 }
+	 void displayInfo() {
+		 System.out.println(msg);
+	 }
+}
+
+public class Message {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+           DisplayMessage dm=new DisplayMessage();
+           dm.displayInfo();
+           DisplayMessage dm=new DisplayMessage("This is user defined constructor");
+           dm.displayInfo();
+	}
+
+}

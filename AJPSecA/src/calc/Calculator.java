@@ -1,0 +1,33 @@
+package calc;
+
+class Sum {
+	int num1, num2;
+    Sum(int num1, int num2){
+    	this.num1=num1;
+    	this.num2=num2;
+    }
+    void getSum() {
+    	int s=num1+num2;
+    	System.out.println("Sum="+s);
+    }
+}
+
+class Sub {
+	void getSub(int num1, int num2) {
+		int s=num1-num2;
+    	System.out.println("Subtraction="+s);
+	}
+}
+
+public class Calculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+           Sum s1 =new Sum(23,45);
+           s1.getSum();
+           Sub sub1 =new Sub();
+           sub1.getSub(34, 56);
+           
+	}
+
+}
