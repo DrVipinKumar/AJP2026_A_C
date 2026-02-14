@@ -1,0 +1,59 @@
+package enc;
+
+import java.util.ArrayList;
+
+class Product {
+	private int pid;
+	private String productName;
+	private double price;
+	private int quantity;
+	public Product(int pid, String productName, double price, int quantity) {
+		super();
+		this.pid = pid;
+		this.productName = productName;
+		this.price = price;
+		this.quantity = quantity;
+	}
+	public double getPrice() {
+		return price;
+	}
+	public void setPrice(double price) {
+		this.price = price;
+	}
+	public int getQuantity() {
+		return quantity;
+	}
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+	public int getPid() {
+		return pid;
+	}
+	public String getProductName() {
+		return productName;
+	}
+	
+}
+
+public class MainEnc {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<Product> list=new ArrayList<Product>();
+		   list.add(new Product(1,"Mobile",20000,10));
+		   list.add(new Product(2,"Mobile",40000,30));
+		   list.add(new Product(3,"Laptop",20000,40));
+		   list.add(new Product(4,"Mobile",40000,10));
+		   list.add(new Product(5,"Laptop",80000,14));
+		   list.add(new Product(6,"Mobile",20000,10));
+		   System.out.println("Product ID\tProduct Name\tPrice\tQuantity");
+		   for(Product p:list) {
+			   String result=String.format("Pid=%d\tPName=%s\tPrice=%f\tQuantity=%d",
+		           		p.getPid(),p.getProductName(),p.getPrice(),p.getQuantity());
+			   System.out.println(result);
+		   }
+          
+          
+	}
+
+}
