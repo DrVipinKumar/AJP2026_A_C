@@ -1,0 +1,3 @@
+module mcamodule {
+	requires javamodule;
+}
