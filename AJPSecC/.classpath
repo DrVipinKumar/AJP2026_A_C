@@ -11,5 +11,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/GeniusVipin/Desktop/Current Sem Data/EVEN SEM/AJP/mysql-connector-j-9.6.0.jar"/>
 	<classpathentry kind="output" path=""/>
 </classpath>

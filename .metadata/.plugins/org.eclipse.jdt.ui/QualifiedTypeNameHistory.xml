@@ -13,8 +13,9 @@
     <fullyQualifiedTypeName name="java.util.concurrent.Executor"/>
     <fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
     <fullyQualifiedTypeName name="java.util.concurrent.CompletableFuture"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
-    <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
 </qualifiedTypeNameHistroy>

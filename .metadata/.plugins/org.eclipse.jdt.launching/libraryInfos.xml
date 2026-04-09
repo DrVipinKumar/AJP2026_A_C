@@ -12,5 +12,6 @@
             <entry path="null"/>
         </endorsedDirs>
     </libraryInfo>
+    <libraryInfo home="C:\Program Files\Java\jdk-26" version="26"/>
     <libraryInfo home="D:\SOFTWARE\Softwares\Languages\Java Software\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.9.v20251105-0741\jre" version="21.0.9"/>
 </libraryInfos>
